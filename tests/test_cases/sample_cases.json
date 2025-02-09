@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "context": "def add(a, b):\n    return",
+            "expected": "a + b",
+            "language": "Python",
+            "tags": ["function"]
+        },
+        {
+            "context": "import pandas as",
+            "expected": "pd",
+            "language": "Python",
+            "tags": ["import"]
+        }
+    ]
+} 

@@ -1,0 +1,15 @@
+[project]
+name = "code-validator"
+version = "0.1.0"
+description = "AI Code Autocompletion Validation System"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1.0",
+    "transformers>=4.33.0",
+    "evaluate>=0.4.0",
+    "pytest>=7.4.0"
+]
+
+[tool.pytest.ini_options]
+addopts = "-v --cov=src --cov-report=term-missing"
+testpaths = ["tests"] 
