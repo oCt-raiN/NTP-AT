@@ -4,13 +4,61 @@
             "context": "def add(a, b):\n    return",
             "expected": "a + b",
             "language": "Python",
-            "tags": ["function"]
+            "tags": ["function", "arithmetic"]
         },
         {
             "context": "import pandas as",
             "expected": "pd",
             "language": "Python",
             "tags": ["import"]
+        },
+        {
+            "context": "def is_even(num):\n    return num % 2 ==",
+            "expected": "0",
+            "language": "Python",
+            "tags": ["function", "boolean"]
+        },
+        {
+            "context": "class Rectangle:\n    def __init__(self, width, height):\n        self.width =",
+            "expected": "width",
+            "language": "Python",
+            "tags": ["class", "constructor"]
+        },
+        {
+            "context": "try:\n    result = 10 / 0\nexcept",
+            "expected": "ZeroDivisionError",
+            "language": "Python",
+            "tags": ["exception"]
+        },
+        {
+            "context": "with open('file.txt', 'r') as",
+            "expected": "f",
+            "language": "Python",
+            "tags": ["file-handling"]
+        },
+        {
+            "context": "def sort_list(items):\n    return sorted(items, key=lambda x:",
+            "expected": "x",
+            "language": "Python",
+            "tags": ["lambda", "sorting"]
+        },
+        {
+            "context": "async def fetch_data():\n    async with aiohttp.ClientSession() as",
+            "expected": "session",
+            "language": "Python",
+            "tags": ["async", "networking"]
+        },
+        {
+            "context": "@property\ndef area(self):\n    return self.width *",
+            "expected": "self.height",
+            "language": "Python",
+            "tags": ["property", "class-method"]
+        },
+        {
+            "context": "if __name__ ==",
+            "expected": "'__main__'",
+            "language": "Python",
+            "tags": ["main", "entry-point"]
         }
     ]
 } 
